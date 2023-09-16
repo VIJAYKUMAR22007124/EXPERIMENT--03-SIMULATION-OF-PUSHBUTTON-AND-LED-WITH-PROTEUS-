@@ -20,7 +20,20 @@ interfaces Datasheet - production data Features
 
 ## Procedure:
 ```
-
+1. Open a new STM32 Project
+2. Selecting GPIO Ports
+  
+     PA5 -> GPIO Output
+   
+     PC13 -> GPIO input
+3. Configure the PC13 Port at Pull up Mode followed by generating the code.
+4. Write the function(Declare,Define,Call)
+5. Build Debug and Create 'hex file'
+6. Open a new Proteus Project.
+7. Select STM32F401RB, LED and Push Button.
+8. Connect Proteus and STM32cubeIDE together.
+9. Connect PA5 with LED and PC13 with Push Button.
+10. Check for execution of the ouput using Push Button option.
 ```
 
 ## STM 32 CUBE PROGRAM :
